@@ -8,6 +8,9 @@ Udacity - Programming for Data Science with Python
 
 ### Description
 Describe what your project is about and what it does
+In this project we use the raw data from 3 different csv's that contain data for 3 different cities.
+I then use a python script (biksehare.py) to run calculations on this data and display statistical results to the user.
+
 
 ### Files used
 Files used for this project:
