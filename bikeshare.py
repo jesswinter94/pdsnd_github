@@ -2,7 +2,6 @@ import time
 import pandas as pd
 import numpy as np
 
-
 #importing data from the provided csv's.
 CITY_DATA = { 'chicago': 'chicago.csv','new york city': 'new_york_city.csv', 'washington': 'washington.csv' }
 
@@ -131,8 +130,6 @@ def station_stats(df):
     common_start_station = df['Start Station'].mode()[0]
     print('Most  common start station:', common_start_station)
 
-
-
     # Done: display most commonly used end station
     common_end_station = df['End Station'].mode()[0]
     print('Most common end station: ', common_end_station)
@@ -245,20 +242,16 @@ def view_data(df):
         elif continue_input.lower() == "no":
             return
     return    
-    
-    
-    
-    
+        
 def main():
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
-
+	view_data(df)
         time_stats(df)
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        view_data(df)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
