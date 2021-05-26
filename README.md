@@ -11,6 +11,9 @@ Describe what your project is about and what it does
 In this project we use the raw data from 3 different csv's that contain data for 3 different cities.
 I then use a python script (biksehare.py) to run calculations on this data and display statistical results to the user.
 
+##Using the bikshare.py script###
+To run the bikeshare.py script ensure you have python3 installed and the bikeshare.py file in the same directory as the raw source data
+
 
 ### Files used
 Files used for this project:
