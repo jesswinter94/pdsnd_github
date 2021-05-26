@@ -2,6 +2,8 @@ import time
 import pandas as pd
 import numpy as np
 
+##Ensure you have read the README.md that is available along with this code so you are confident with contents of data and script dependencies###
+
 
 #importing data from the provided csv's.
 CITY_DATA = { 'chicago': 'chicago.csv','new york city': 'new_york_city.csv', 'washington': 'washington.csv' }
